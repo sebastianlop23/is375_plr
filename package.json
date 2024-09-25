@@ -1,0 +1,29 @@
+{
+  "name": "is373_devops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "npx playwright test",
+    "start": "node ./server/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kaw393939/is373_devops.git"
+  },
+  "author": "Keith Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaw393939/is373_devops/issues"
+  },
+  "homepage": "https://github.com/kaw393939/is373_devops#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.0",
+    "express": "^4.21.0",
+    "playwright": "^1.47.2"
+  }
+}
