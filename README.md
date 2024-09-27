@@ -1,4 +1,4 @@
-# is373_devops
+# IS373 Devop (Playwright Repo)
 
 Setup
 
