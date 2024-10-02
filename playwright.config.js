@@ -11,7 +11,7 @@ module.exports = {
 
   // Global test settings
   use: {
-    baseURL: 'http://localhost:3000',   // Base URL for all tests
+    baseURL: 'http://localhost:4000',   // Base URL for all tests
     headless: true,                     // Run tests in headless mode for CI efficiency
     screenshot: 'only-on-failure',      // Capture screenshots on failure
     video: 'retain-on-failure',         // Capture video on failure
