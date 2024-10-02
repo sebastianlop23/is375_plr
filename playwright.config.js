@@ -28,10 +28,6 @@ module.exports = {
       name: 'Desktop Firefox',
       use: { ...devices['Desktop Firefox'] },
     },
-    {
-      name: 'Desktop Safari',
-      use: { ...devices['Desktop Safari'] },
-    },
   ],
 
   // Reporter configuration
