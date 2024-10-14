@@ -1,15 +1,15 @@
 import { test, expect } from '@playwright/test';
 
-test('correct_title', async ({page}) => {
-    await page.goto('https://kl63.github.io/is373_project/2024/10/13/docker/');
+test('docker_title', async ({page}) => {
+    await page.goto('https://kl63.github.io/is373_project/2024/10/14/docker/');
 
     await expect(page).toHaveTitle(/Docker/);
 
 });
 
-test('check for docker definition', async ({ page }) => {
+test('docker_def', async ({ page }) => {
     // Navigate to the page you want to test
-    await page.goto('https://kl63.github.io/is373_project/2024/10/13/docker/');
+    await page.goto('https://kl63.github.io/is373_project/2024/10/14/docker/');
     
     // Wait for the content to load (optional, depending on the page behavior)
     await page.waitForLoadState('domcontentloaded');
