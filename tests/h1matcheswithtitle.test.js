@@ -1,14 +1,14 @@
 import { test, expect } from '@playwright/test';
 
 const urls = [
-    'https://kl63.github.io/is373_project/2024/10/15/ubuntu/',
-    'https://kl63.github.io/is373_project/2024/10/15/containerization/',
-    'https://kl63.github.io/is373_project/2024/10/15/threading/',
-    'https://kl63.github.io/is373_project/2024/10/15/scaling/',
-    'https://kl63.github.io/is373_project/2024/10/15/kernel/',
-    'https://kl63.github.io/is373_project/2024/10/15/dockervskubernetes/',
-    'https://kl63.github.io/is373_project/2024/10/15/virtualizationvscontainerization/',
-    'https://kl63.github.io/is373_project/2024/10/15/docker/',
+    'https://kl63.github.io/is373_project/2024/10/18/ubuntu/',
+    'https://kl63.github.io/is373_project/2024/10/18/containerization/',
+    'https://kl63.github.io/is373_project/2024/10/18/threading/',
+    'https://kl63.github.io/is373_project/2024/10/18/scaling/',
+    'https://kl63.github.io/is373_project/2024/10/18/kernel/',
+    'https://kl63.github.io/is373_project/2024/10/18/dockervskubernetes/',
+    'https://kl63.github.io/is373_project/2024/10/18/virtualizationvscontainerization/',
+    'https://kl63.github.io/is373_project/2024/10/18/docker/',
     
 ];
 

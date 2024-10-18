@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-const url = 'https://kl63.github.io/is373_project/2024/10/15/dockervskubernetes/';
+const url = 'https://kl63.github.io/is373_project/2024/10/18/dockervskubernetes/';
 
 test('contain_title', async ({page}) => {
     // Navigate to url
