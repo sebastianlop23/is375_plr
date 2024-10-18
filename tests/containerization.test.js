@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('contain_title', async ({page}) => {
-    await page.goto('https://kl63.github.io/is373_project/2024/10/14/containerization/');
+    await page.goto('https://kl63.github.io/is373_project/2024/10/15/containerization/');
 
     await expect(page).toHaveTitle(/Containerization/);
 
@@ -9,7 +9,7 @@ test('contain_title', async ({page}) => {
 
 test('contain_check', async ({ page }) => {
     // Navigate to the page you want to test
-    await page.goto('https://kl63.github.io/is373_project/2024/10/14/containerization/');
+    await page.goto('https://kl63.github.io/is373_project/2024/10/15/containerization/');
     
     // Wait for the content to load (optional, depending on the page behavior)
     await page.waitForLoadState('domcontentloaded');
